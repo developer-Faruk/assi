@@ -1,0 +1,781 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.width {
+    width: 1110px;
+    margin:10px auto;
+   
+}
+/* end defult */
+.left {
+    float: left;
+    width: 70%;
+}
+.left ul{}
+.left ul li{
+    display: inline-block;
+    color: #fff;
+
+}
+.left ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 30px;
+    display: inline-block;
+}
+.left ul li a:hover{}
+.right {
+	float: right;
+	width: 30%;
+	position: absolute;
+	top: 0;
+	right: 37px;
+}
+.right i{
+    font-size: 20px;
+}
+.right span {
+	background-color: bisque;
+	display: inline-block;
+	padding: 4px 10px 7px 15px;
+	border-radius: 3px;
+}
+.menu-02 {
+    background-color: #00142c;
+    position: relative;
+
+}
+/*End menutop */
+.header {
+    margin-top: 20px;
+    position: relative;
+   
+}
+.logo {
+    float: left;
+    width: 15%;
+
+}
+.logo img {
+	/*! max-width: 100%; */
+	width: 123%;
+	height: auto;
+}
+.menu {
+    float: right;
+    width: 85%;
+    text-align: right;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: -5px;
+    border-right: 1px solid aliceblue;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #00142c;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.menu ul li:last-child{
+    position: relative;
+
+}
+
+.menu ul li:nth-child(8) a {
+	padding: 6px 55px 19px 21px;
+	font-size: 29px;
+	border-radius: 8px;
+    margin-left: 34px;
+    background-color: bisque;
+}
+
+.phone {
+	position: absolute;
+	top: 13px;
+	left: 10px;
+	font-size: 21px;
+	background: rgba(167, 131, 131, .4);
+	padding: 8px;
+	border-radius: 7px;
+	color: #dd5151;
+}
+.span {
+	position: absolute;
+	bottom: 3px;
+	right: 13px;
+	font-size: 17px;
+}
+.menu ul li a:hover{
+    background-color: bisque;
+}
+
+.header h5 {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	position: absolute;
+	right: 14%;
+	bottom: -5px;
+	font-size: 35px;
+}
+.top {
+    position: absolute;
+    top: -8px;
+    right: 18%;
+    color: #dd5151;
+    font-size: 35px;
+}
+
+
+.baner {
+    background:url(./P1033342\ copy.JPG) no-repeat top center;
+	background-size: cover;
+	padding-top: 134px;
+	text-align: center;
+    padding-bottom:400px ;
+    position: relative;
+    z-index: -1;
+    margin-top: 15px;
+}
+.word a {
+	background: #00142c;
+	display: inline-block;
+	padding: 8px 35px;
+	text-decoration: none;
+	margin: 13px 0;
+	font-size: 33px;
+	color: #fff;
+}
+.word .first{
+    background-color: #0292c5;
+}
+.width {
+}
+.word {
+    text-align: right;
+}
+.car {
+	position: absolute;
+	top: 77%;
+	left: 35%;
+}
+.phone-01 {
+    position: absolute;
+    top: 52%;
+    /*! bottom: 0; */
+    width: 90%;
+    left: 31.6%;
+    z-index: -1;
+}
+.phone-01 img{
+    width: 30%;
+
+}
+.link img{
+    width: 24%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.link{
+    position: absolute;
+    top: 22%;
+    right: 28%;
+    
+    width: 44%;
+}
+.link a{
+    margin: 7%;
+    display: inline-block;
+    padding: 7px 10px;
+    background: #ee1f29;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.link {
+}
+.extra {
+    left: 17%;
+    top: 47%;
+   
+    width: 100%;
+}
+
+.button {
+	background: #0f7dcc;
+	display: inline-block;
+	padding: 7px 7px 4px 60px;
+	border: 2px solid #837a73;
+	border-radius: 14px;
+	margin-top: 19px;
+	margin-left: 35%;
+	position: relative;
+}
+
+.button a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	margin-top: -5px;
+	display: inline-block;
+
+}
+.button span{
+	display: block;
+	margin-right: 54px;
+	font-size: 17px;
+	
+}
+.baner i {
+	font-size: 42px;
+	position: absolute;
+	color: #75f2f8;
+	top: 15px;
+	left: 8px;
+}
+
+.extraa{
+	position: absolute;
+	bottom: 49.8%;
+	right: 21%;
+}
+
+/* endsection */
+.section h2{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: #0292c5;
+    font-size: 50px;
+
+}
+.section h1{
+
+
+}
+.section{
+    text-align: center;
+    margin-top: 100px;
+}
+.section-01 {
+    margin-top: 30px;
+}
+
+.left-section {
+    float: left;
+    width: 30%;
+    background-color: #75f2f8;
+    width: 307px;
+    height: 313px;
+}
+.right-section {
+    float: right;
+    width: 65%;
+}
+.link-section a {
+	text-decoration: none;
+	background-color: #d50b0b;
+	color: #fff;
+	padding:12px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 4px;
+}
+.link-section a:hover{
+    transform-origin: left center;
+    background-color: crimson;
+    transition: all .5s ease-in-out;
+}
+.link-section i {
+	margin-left: 11px;
+}
+
+.right-section h2{
+    line-height: 25px;
+    margin: 10px 0;
+
+}
+.link-section .linka {
+    background-color: #000;
+    padding:12px 20px;
+    margin-left: 15px;
+    display: inline-block;
+   
+}
+
+.phone-number {
+	position: relative;
+	margin-top: 20px;
+	margin-left: -33px;
+}
+.phone-number a {
+	padding: 6px 91px 22px 73px;
+	font-size: 29px;
+	border-radius: 8px;
+    margin-left: 34px;
+    background-color: bisque;
+    text-decoration: none;
+    position: relative;
+}
+.phone-0 {
+	position: absolute;
+	top: 11px;
+	left: 50px;
+	font-size: 21px;
+	padding: 12px;
+	border-radius: 5px;
+	color: #eee;
+	background: #1888c3;
+}
+.phone-number h6{
+    position: absolute;
+    top: 33px;
+    left: 108px;
+    font-size: 19px;
+}
+.phone-number h5 {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	position: absolute;
+	right: 29%;
+	bottom: 6px;
+	font-size: 35px;
+}
+.left-section{
+    position: relative;
+}
+.top-r {
+    position: absolute;
+    top: -30%;
+    right: -4%;
+}
+.left-section img{
+    max-width: 88%;
+}
+
+.bot {
+    position: absolute;
+    top: -28%;
+    left: -20%;
+    width: 87%;
+}
+.absulate {
+	position: absolute;
+	bottom: 0%;
+	left: 55%;
+	width: 59%;
+	background: #ffffff;
+	border-radius: 6px;
+}
+/* service */
+.service {
+	position: relative;
+	margin-top: 48px;
+}
+.clear {
+}
+
+.service-item img{
+    max-width: 100%;
+}
+.service-item {
+    float: left;
+    width: 48%;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.service-item a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: crimson;
+    display: inline-block;
+    border-radius: 5px;
+    /*! margin: 10px 0; */
+}
+.word-sec{
+    background-color: #00142c;
+    color: #fff;
+    text-align: center;
+    margin-top: -7px;
+    padding: 43px 10px 21px 10px;
+}
+.service-item .idol{
+    width: 75px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    background: aqua;
+    border-radius: 50%;
+    font-size: 29px;
+    left: 33%;
+}
+
+.service-item .f2 {
+	position: absolute;
+	top: 50%;
+	left: 63%;
+}
+
+.servic-01 {
+    text-align: center;
+}
+
+/* service02 */
+.service-02 {
+    position: relative;
+    text-align: center;
+    margin: 50px 0;
+    
+}
+
+.service-item-02 {
+    float: left;
+    width: 33%;
+}
+.service-item-02 .home {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    position: relative;
+
+}
+.service-item-02 .home::after{
+    content:attr(faruk);
+    color: #f1e6e6;
+    position: absolute;
+    top: 0;
+    background-color: rgb(184, 25, 25);
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    right: 0;
+}
+
+.imge img{
+    max-width: 100%;
+}
+.imge {
+	width: 20%;
+	position: absolute;
+	top: -201%;
+	left: 156px;
+}
+/* service-section */
+.service-section {
+    background-color: #ecf5f8;
+    text-align: center;
+    padding: 20px 10px;
+
+}
+.width {
+}
+.service-section-01 {
+    float: left;
+    width: 30%;
+    margin-left: 5px;
+    padding: 15px;
+    
+}
+
+.float-left {
+    float: left;
+    width: 48%;
+    margin-left: 10px;
+}
+
+.float-left img{
+    max-width: 100%;
+}
+.service-section a {
+	text-decoration: none;
+	color: #fff;
+	background-color: crimson;
+	display: inline-block;
+	padding: 8px 20px;
+	margin: 10px 0;
+	border-radius: 6px;
+}
+
+.section-left {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.section-left i{
+    margin-left: 5px;
+    inset-block: ;
+}
+.wordu {
+    float: right;
+    width: 10%;
+}
+
+.section-04 {
+    background-color: #00142c;
+    color: #fff;
+    padding: 50px 0;
+    position: relative;
+}
+
+.left-content {
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+}
+.left-content ul li{
+    list-style: none;
+    margin: 43px 0;
+    
+
+}
+.left-content ul li i{
+    float: left;
+    width: 113px;
+ 
+}
+.left-content ul li i{
+    width: 70px;
+	height: 70px;
+	background-color: #4098be;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 70px;
+	text-align: center;
+	margin-right: 14px;
+
+}
+.right-content {
+    float: right;
+    width: 45%;
+}
+
+.right-content h3{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 40px;
+}
+.right-content h2 {
+    font-size: 33px;
+}
+.right-content ul{
+    list-style: none;
+
+}
+.right-content ul li{
+    margin: 15px 0;
+
+}
+.right-content ul li i{
+    float: left;
+    width: 80px;
+
+}
+.right-content ul li i{
+    width: 20px;
+	height: 20px;
+	background-color: #4098be;
+	border-radius: 50%;
+	font-size: 10px;
+	line-height: 20px;
+	text-align: center;
+	margin-right: 10px;
+    
+}
+.right-content a{
+    text-decoration: none;
+	color: #fff;
+	background-color: crimson;
+	display: inline-block;
+	padding: 8px 20px;
+	margin: 10px 0;
+	border-radius: 5px;
+
+}
+.right-content img {
+	width: 14%;
+	position: absolute;
+	top: 142px;
+	right: 10.5%;
+}
+.section-05  h2,h1{
+    text-align: center;
+}
+
+.left-setion-06 img{
+    width: 100%;
+}
+.left-setion-06 {
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+}
+.left-setion-06 ul{
+    list-style: none;
+}
+.left-setion-06 ul li{
+    display: inline-block;
+    
+    font-size: 13px;
+    color: #b1a4a4;
+}
+.left-setion-06 ul li:last-child {
+    margin-left: 30px
+}
+.left-setion-06 a {
+	text-decoration: none;
+	color: #fff;
+	background-color: crimson;
+	display: inline-block;
+	padding: 8px 20px;
+	margin-top: 38px;
+	border-radius: 5px;
+	margin-left: 54px;
+}
+.fotter {
+    background-color: #010310;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.left-fotter {
+    float: left;
+    width: 31.3%;
+    color: #fff;
+    margin-left: 10px;
+    
+  
+}
+.img-top img {
+	width: 18%;
+}
+
+
+.left-fotter {
+}
+.left-fotter-n {
+    float: left;
+    /* width: 50%; */
+}
+.right-fotter {
+    float: right;
+    /* width: 40%; */
+}
+.right-fotter ul{
+    list-style: none;
+}
+.right-fotter ul li{
+    margin: 20px 0;
+
+}
+.right-fotter span i{
+    
+}
+.left-fotter span i {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color: #4098be;
+	border-radius: 50%;
+	font-size: 10px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 20px;
+}
+.left-fotter span{
+   margin-top: 20px;
+   display: block;
+}
+.left-fotter h2{
+    margin: 10px 0;
+}
+.extra-b {
+	margin-left: 40px;
+	margin-top: -70px;
+}
+.left-fotter span .small{
+    font-size: 8px;
+
+}
+.extra-p{
+    margin-top: -70px;
+}
+.left-fotter span p{
+    font-size: 20px;
+
+}
+
+.left-fotter-n ul{
+    list-style: none;
+}
+.left-fotter-n ul li{
+    margin: 10px 0;
+
+}
+.left-fotter-n ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.left-fotter .extra-icon{
+    margin-left: 10px;
+    display: inline-block;
+    width: 30px;
+	height: 30px;
+	background-color: #4098be;
+	border-radius: 50%;
+	font-size: 10px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.right-fotter ul{}
+.right-fotter ul li{
+    margin: 10px 0;
+}
+.right-fotter ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.right-fotter ul li a{}
+
+.imagr {
+    text-align: center;
+    margin: 50px;
+    width: 50%;
+    display: block;
+    text-align: center;
+    border: 1px solid #000;
+    margin:50px auto;
+    background-color: #75f2f8;
+    
+}
+
+.imagr img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 0 10%);
+}
+
